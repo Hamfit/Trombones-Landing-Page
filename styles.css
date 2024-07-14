@@ -67,6 +67,11 @@ header {
 @media (max-width: 600px) {
   header {
     flex-wrap: wrap;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
   }
 }
 
